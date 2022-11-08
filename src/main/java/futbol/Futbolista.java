@@ -7,9 +7,6 @@ public abstract class Futbolista implements  Comparable {
 	 private String nombre;
 	 private int edad;
 	 private String posicion;
-	 
-	
-	 //contructores
 	
 	 
 	 public Futbolista(String nombre, int edad, String posicion) {
@@ -23,8 +20,6 @@ public abstract class Futbolista implements  Comparable {
 	        this.edad = 30;
 	        this.posicion = "delantero";
 	 }
-	 
-	 //metodos getter
 	 
 	    public String getNombre() {
 	        return nombre;
@@ -72,7 +67,5 @@ public abstract class Futbolista implements  Comparable {
 	    }
 	    
 	    public abstract boolean jugarConLasManos();
-	 
-	
 
 }
